@@ -9,7 +9,11 @@ public class Main {
         String name =sc.nextLine();
         String password= sc.next();
         double balance =sc.nextDouble();
+
+
+        //creation of account
         SBIUser user =new SBIUser(name,balance,password);
+        System.out.println("new account created is "+ user.getAccountNo());
 
         //add amount
         String message =user.addMoney(10000);

@@ -31,6 +31,9 @@ public class SBIUser implements  Bankinterface{
         return "your balance"+amount;
     }
 
+    public String getAccountNo() {
+        return accountNo;
+    }
 
 
     public String getName() {
